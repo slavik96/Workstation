@@ -1,0 +1,89 @@
+body, form, form p, li p {margin: 0; padding: 0; font: normal 11pt Georgia, "Times New Roman", Times, serif;}
+
+a {color: #383839; text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+ol {margin: 0; padding: 0; list-style-type: none; font-size: 9pt; color: #45494d;}
+ol li {margin:0; padding: 0;}
+
+img {border: 0;}
+
+h1 {font-size: 22pt; font-weight: 200; color: #45494d;}
+
+h2 {font-size: 16pt; font-weight: 200; color: #45494d; margin-top: 0;}
+
+input {border: 1px solid #45494d;}
+textarea {border: 1px solid #45494d;}
+select {border: 1px solid #45494d;}
+
+input:focus{border:1px solid #FF9900;}
+textarea:focus{border:1px solid #FF9900;}
+select:focus{border:1px solid #FF9900;}
+
+.txt {width: 200px; margin-bottom: 10px; height: 25px;}
+.txtarea {width: 500px; height: 150px; margin-bottom: 10px;}
+
+#primary {background-image:url(../img/slice/bg_top.png); height: 614px;}
+#primary_top_banner {height: 100px; width: 1000px;}
+#primary_angle {background-image:url(../img/slice/bg_angle.png); height: 10px; width: 1000px; position: relative; z-index: 5;}
+#primary_info { background-color:#FFFFFF; height: 490px; width: 1000px; position:relative; z-index: 10;}
+#primary_info_search {height: 118px;}
+#primary_info_search_logo {position: relative; z-index: 50; height: 60px; width: 195px; float: left; margin-left: 10px;}
+#primary_info_search_form {height:60px; position:relative; padding-right: 10px;}
+#primary_info_search_form_border {background-image: url(../img/slice/form_search.png); background-repeat: no-repeat; height: 45px; width: 400px; padding-right:140px;}
+#primary_info_search_form_type_text {position:relative; left: -7px; top: -18px; height: 30px; width: 380px; border: 0; font-size: 18pt; color: #45494d; font-style: italic; font-family:}
+#primary_info_search_menu {list-style: none; font-size: 14pt; padding:0; margin: 10px 0 0 0px;}
+#primary_info_search_menu li {float: left; padding-left: 6px;}
+.primary_info_search_menu_bg_left {height: 39px; width: 11px; float: left;}
+.primary_info_search_menu_bg_middle {height: 34px; padding-top: 5px; float:left;}
+.primary_info_search_menu_bg_right {height: 39px; width: 11px; float: left;}
+
+#primary_info_rotator {height: 370px; width: 980px; border: 1px solid #a9acb1;}
+
+#primary_articles {position: relative; margin-top: 4px; width: 998px; background-color: #ffffff; border:1px solid #ffffff;}
+.primary_articles_vkladka {width: 741px; height: 43px; background-image: url(../img/slice/vkladka.png); font-size: 18pt; font-style: normal; position: relative;}
+.primary_articles_vkladka_h1 {font-size: 18pt; font-weight: 200; color: #45494d; padding: 7px 0 0 5px; width: 624px; text-decoration: none;}
+.all_articles { font-size: 8pt;}
+.position_all_articles {position: relative; top: -25px; left: 629px; width: 115px;}
+
+#img_flowers_left {position: fixed; right: 50%; top: 0; margin-right: 300px;}
+#img_flowers_right {position: fixed; left: 50%; top: 0; margin-left: 300px;}
+
+.h1_rotator {font-size: 13.5pt; font-weight:200; color: #000000;}
+
+#primary_footer {background-image:url(../img/slice/bg_footer.png); height: 487px; position: relative; z-index: 5;}
+#primary_footer_info {width: 1000px; padding-top: 40px; position: relative;}
+.primary_footer_link_category {color: #ffffff; font-size: 10.5pt; text-transform: uppercase;}
+#primary_footer_contacts {width: 220px; position: absolute; left: 50%; margin-left: 250px; top: 55px; color: #c7c6c6;}
+#primary_footer_copyright {width: 1000px;}
+
+.img_announcement {float: left; margin: 0 10px 0 5px;}
+
+.sms_useru {padding-left: 350px; color: #ff3300}
+
+.left_block {position:absolute; left: 50%; top: 620px; margin-left: 253px; width: 245px;}
+.left_block li {padding-bottom: 10px;}
+
+.error{color:#ff500b;font-size:11pt;margin:5px 0;}
+
+.clear {height: 0; font-size: 0; overflow: hidden; clear: both; margin: 0; padding: 0;}
+
+.articles_href a {color:#0066ff;}
+
+#share42 {
+  display: inline-block;
+  padding: 6px 0 0 6px;
+  background: #FFF;
+  border: 1px solid #E9E9E9;
+  border-radius: 4px;
+}
+#share42:hover {
+  background: #F6F6F6;
+  border: 1px solid #D4D4D4;
+  box-shadow: 0 0 5px #DDD;
+}
+#share42 a {opacity: 0.5;}
+#share42:hover a {opacity: 0.7}
+#share42 a:hover {opacity: 1}
+
+#rss {margin-bottom: 10px;}
