@@ -56,5 +56,6 @@ if($_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest'){
 			@mysql_close();
 }else
     // обращение к файлу произошло не через AJAX-запрос
+    //123
     echo "Ошибка запроса";
 ?> 
