@@ -88,7 +88,7 @@ if(isset($_GET['del'])){
 </head>
 
 <body style="background-color:#FFFFFF;">
-
+//
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="295" align="left" valign="top"><?php require_once("_menu_new.php");?></td>
